@@ -1,0 +1,78 @@
+@import "../../../app/styles/globalVariable.module.scss";
+
+// =============================================
+// ============== Mixin Scss ===========
+// =============================================
+@mixin Display_Flex($display, $alignItems, $justifyContent) {
+  display: $display;
+  align-items: $alignItems;
+  justify-content: $justifyContent;
+}
+
+// =============================================
+// ============== About Section Scss ===========
+// =============================================
+
+#about {
+  height: 85vh;
+  // background-color: red;
+  @include Display_Flex(flex, center, center);
+}
+
+// =============================================
+// ============= Main Container Scss ===========
+// =============================================
+
+.mainContainer {
+  @include Display_Flex(flex, center, center);
+  margin: 0 10rem;
+}
+
+// =============================================
+// =========== About Text Block 1 ==============
+// =============================================
+
+.aboutText {
+  padding: 0 1.5rem 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+
+  .smallText {
+    // font-weight: bold;
+    // padding-left: .5rem;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0.8rem 1rem;
+    border-radius: 5rem;
+    letter-spacing: 0.2px;
+  }
+  .headingOne{   /// This is the main Heading with animation...
+    display: flex;
+    gap: 1.5rem;
+    font-size: $h1-font-size;
+    margin: 24px 0;
+    // .mr2{
+
+    // }
+    .animatedInfo{
+        .headingItems{
+          color: $change-color;
+          font-size: 3.5rem;
+        }
+    }
+
+  }
+//   .paragraph{
+
+//   }
+
+    .customButton{
+        margin-top: 3rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        // flex-direction: column;
+        gap: 1rem;
+    }
+}

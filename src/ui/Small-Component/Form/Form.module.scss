@@ -1,0 +1,11 @@
+@import "../../../app/styles/globalVariable.module.scss";
+
+.formContainer{
+    .headingContainer{
+        margin: 1rem 0 4.5rem 0;
+        h1{
+            font-size: $h1-font-size;
+            margin: 0 0 1rem 0;
+        }
+    }
+}

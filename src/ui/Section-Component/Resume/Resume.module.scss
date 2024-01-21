@@ -1,0 +1,20 @@
+@import "../../../app/styles/globalVariable.module.scss";
+
+.Container{
+    display: flex;
+    padding: 0 10rem;
+    gap: 5rem;
+    flex-wrap: wrap;
+    h1{
+        font-size: $h1-font-size;
+        // color: $h1-font-color;
+        
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Container{
+        padding: 0;
+    }
+    
+}

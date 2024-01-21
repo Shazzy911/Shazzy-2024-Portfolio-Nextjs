@@ -1,0 +1,59 @@
+// // ================================
+// // ====== Importing Files ===
+// // ================================
+@import "../../../app/styles/globalVariable.module.scss";
+
+// // ================================
+// // ====== Main Info Contianer ===
+// // ================================
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  // // ================================
+  // // ======    Info Contianer ===
+  // // ================================
+  .InfoContainer {
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+    background: #474559;
+    border-radius: 0 0 3px 3px;
+    position: relative;
+    bottom: 15px;
+    padding: 3rem;
+    width: 100%;
+    height: 17rem;
+    p {
+      color: white;
+      margin-bottom: .3rem;
+    }
+    .h3Heading {
+      color: white;
+      font-size: 2.8rem;
+      margin-bottom: 2rem;
+    }
+
+    // // ================================
+    // // ====== Social Contianer     ===
+    // // ================================
+
+    .socialContainer {
+      @include Display_Flex();
+      gap: 2rem;
+      flex-direction: column;
+      .items {
+        color: white;
+        font-size: 2rem;
+        transition: all 0.5s ease-in-out;
+        &:hover {
+          color: $change-color;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

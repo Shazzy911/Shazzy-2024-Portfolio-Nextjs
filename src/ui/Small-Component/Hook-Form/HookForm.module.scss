@@ -1,0 +1,43 @@
+@import "../../../app/styles/globalVariable.module.scss";
+
+
+@mixin input_Message{
+    @include transition-effect();
+    background: transparent;
+    border-radius: 2px;
+    outline: none;
+    box-shadow: none;
+    font-weight: bold;
+    border: .1px solid $border-colorTwo;
+    &:hover{
+        border: 1.5px solid $change-color;
+    }
+}
+
+.Hook_Form {
+  .inputs {
+    display: flex;
+    gap: 3rem;
+
+    input {
+      width: 25.5rem;
+      height: 4.8rem;
+      padding-left: 1rem;
+        @include input_Message();
+        
+    }
+  }
+  textarea {
+    width: 54rem;
+    height: 15.8rem;
+    margin: 16px 0;
+    padding: .5rem 0 0 1rem;
+    @include input_Message();
+
+  }
+  .button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}

@@ -1,0 +1,19 @@
+@import "../../../app/styles/globalVariable.module.scss";
+
+
+
+.Container{
+
+    height: 15rem;
+    @include Display_Flex;
+    gap: 2rem;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    flex-direction: column;
+
+    p{
+        text-align: center;
+        font-weight: bold;
+    }
+}

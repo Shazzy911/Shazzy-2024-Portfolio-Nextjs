@@ -1,0 +1,100 @@
+@import "../../../app/styles/globalVariable.module.scss";
+
+// =========================
+// ======= Using Mixin =====
+// =========================
+@mixin Display-Flex($display, $align, $justify, $gap) {
+  display: $display;
+  align-items: $align;
+  justify-content: $justify;
+  gap: $gap;
+}
+@mixin Transition_Changes {
+  &:hover {
+    color: $change-color;
+    transition: all 0.7s ease;
+  }
+}
+// =========================================
+//   Navbar of Compoenent
+// =========================================
+
+.navbar {
+  height: 7.5rem;
+  // border-bottom: 1px solid #ff006c;
+}
+
+// =========================================
+// ============= Main Container ============
+// =========================================
+.NavContainer {
+  @include Display-Flex(flex, center, space-around, none);
+  height: 100%;
+  padding: 1rem 2rem 0 2rem;
+  a {
+    // color: $text-white;
+    text-decoration: none; // Link Tag
+    // &:hover {
+    //   color: $change-color;
+    // //   @include transition-effect;
+    //   transition: all .7s ease;
+    // }
+    @include Transition_Changes();
+  }
+}
+
+// =========================================
+// =========== 1st Box Container ===========
+// =========================================
+.menuLogo {
+  @include Display-Flex(flex, none, none, none);
+  a {
+    @include Display-Flex(flex, flex-end, none, 0.9rem);
+    color: $h1-font-color;
+    @include Transition_Changes();
+    // gap: 1rem;
+  }
+  .user {
+    font-size: 4rem;
+  }
+  h3 {
+    padding-bottom: 0.2rem;
+  }
+  .menu {
+    display: none;
+  }
+}
+
+// =========================================
+// =========== 2nd Box Container ===========
+// =========================================
+.navbarItems {
+  @include Display-Flex(flex, none, none, 4rem);
+  //   gap: 5rem;
+  padding-top: 1rem;
+  margin-right: 15rem;
+  h4 {
+    color: $h1-6-font-color;
+    @include Transition_Changes();
+    // &:hover {
+    //   color: $change-color;
+    //   transition: all .7s ease;
+    // }
+  }
+}
+
+// =========================================
+// =========== 3rd Box Container ===========
+// =========================================
+.colorBox {
+  a {
+    @include Display-Flex(flex, center, none, 0.9rem);
+    padding-top: 1rem;
+    color: $h1-font-color;
+    @include Transition_Changes();
+    // gap: 1rem;
+    .color {
+      font-size: 2.5rem;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+@import "../../../app/styles/globalVariable.module.scss";
+
+.Container{
+    @include Display_Flex;
+    gap: 2rem;
+    .items{
+        color: $h1-font-color;
+        transition: all .5s ease-in-out;
+        &:hover{
+            color: $change-color;
+            cursor: pointer;
+        }
+    }
+}
+
+

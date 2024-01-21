@@ -1,0 +1,57 @@
+// =============================================
+// ============= Container Wrapper Scss ========
+// =============================================
+
+.ContainerWrapper {
+  display: flex;
+  justify-content: space-around;
+  // align-items: center;
+  padding: 2.5rem 0;
+  position: relative;
+  &::before {
+    content: "";
+    background: #474559;
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    left: 38px;
+  }
+  .timelineRound {
+    background: #474559;
+    border-radius: 100%;
+    // position: absolute;
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    // z-index: -9999;
+
+    span {
+      color: #ffffff;
+      font-size: 1.6rem;
+      font-weight: bold;
+      display: block;
+      line-height: 75px;
+    }
+  }
+  .timelineInfo {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 43.2rem;
+    margin-left: 6em;
+
+
+    h3 {
+      font-size: 2.8rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+
+      small {
+        font-size: 1.6rem;
+        padding-left: 1.2rem;
+      }
+    }
+  }
+}
