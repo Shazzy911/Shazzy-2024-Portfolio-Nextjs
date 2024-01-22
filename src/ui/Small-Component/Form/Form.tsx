@@ -10,10 +10,10 @@ const Form = () => {
           <h1>Let{"'"}s talk</h1>
          
         </div>
-        <div>
+        
             <Hook_Form/>
 
-        </div>        
+         
       </div>
     
     </>

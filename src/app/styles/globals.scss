@@ -17,6 +17,35 @@ body{
     // color: white;
 }
 
+// // ============================
+// // ====== Responsive Webpage ==
+// // ============================
+
+@media screen and (max-width: 850px) {
+  html{
+    font-size: 58%;
+  }
+  
+}
+
+
+// // ============================
+// // ====== Responsive Webpage ==
+// // ============================
+
+@media screen and (max-width: 430px) {
+  html{
+    font-size: 53%;
+  }
+  
+}
+
+
+
+
+
+
+
 // // =====================
 // // ====== TYPOGRAPHY ===
 // // =====================

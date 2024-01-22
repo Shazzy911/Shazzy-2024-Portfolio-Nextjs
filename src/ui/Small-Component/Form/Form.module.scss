@@ -9,3 +9,34 @@
         }
     }
 }
+
+// // ============================
+// // ====== Responsive Webpage ==
+// // ============================
+
+@media screen and (max-width: 1024px) {
+    // =======================================
+    // ===== Responsive 1024 Pixel Resume Section ======
+    // =========================================
+    .formContainer{
+        display: flex;
+        flex-direction: column;
+        
+        width: 100%;
+    }
+   
+  }
+  @media screen and (max-width: 820px) {
+    // =================================================
+    // ===== Responsive 850 Pixel 2nd Box Container ======
+    // ===================================================
+    
+  }
+  
+  
+  @media screen and (max-width: 430px) {
+    // =================================================
+    // ===== Responsive 430 Pixel About Container ======
+    // ==================================================
+    
+  }

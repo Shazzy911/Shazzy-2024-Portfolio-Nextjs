@@ -32,7 +32,7 @@ const Hook_Form = () => {
           <textarea placeholder="Message" {...register("textarea")} />
         </div>
         <div className={styles.button}>
-        <Button type="submit" text="Send Button"  color="#eee" bgColor="#ff006c" padding="1.5rem 4rem"/>
+        <Button type="submit" text="Send Button"  color="#eee" bgColor="#ff006c" padding="1.5rem 5rem"/>
         </div>
       </form>
     </div>

@@ -1,20 +1,43 @@
 @import "../../../app/styles/globalVariable.module.scss";
 
-.Container{
-    display: flex;
-    padding: 0 10rem;
-    gap: 5rem;
-    flex-wrap: wrap;
-    h1{
-        font-size: $h1-font-size;
-        // color: $h1-font-color;
-        
-    }
+.Container {
+  display: flex;
+  padding: 0 10rem;
+  gap: 5rem;
+  h1 {
+    font-size: $h1-font-size;
+    // color: $h1-font-color;
+  }
 }
 
-@media screen and (max-width: 500px) {
-    .Container{
-        padding: 0;
-    }
-    
+// // ============================
+// // ====== Responsive Webpage ==
+// // ============================
+
+@media screen and (max-width: 1024px) {
+  // =======================================
+  // ===== Responsive 1024 Pixel Resume Section ======
+  // =========================================
+  .Container {
+    padding: 0 3rem;
+    gap: 3rem;
+  }
+}
+@media screen and (max-width: 820px) {
+  // =================================================
+  // ===== Responsive 850 Pixel 2nd Box Container ======
+  // ===================================================
+  .Container{
+    flex-wrap: wrap;
+  }
+}
+
+
+@media screen and (max-width: 430px) {
+  // =================================================
+  // ===== Responsive 430 Pixel About Container ======
+  // ==================================================
+  .Container{
+    padding: 0 1.3rem 0 1rem;
+  }
 }

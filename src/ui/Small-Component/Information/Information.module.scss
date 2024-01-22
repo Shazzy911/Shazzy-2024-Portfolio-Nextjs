@@ -29,7 +29,7 @@
     height: 17rem;
     p {
       color: white;
-      margin-bottom: .3rem;
+      margin-bottom: 0.3rem;
     }
     .h3Heading {
       color: white;
@@ -56,4 +56,34 @@
       }
     }
   }
+}
+
+// // ============================
+// // ====== Responsive Webpage ==
+// // ============================
+
+@media screen and (max-width: 1024px) {
+  // =======================================
+  // ===== Responsive 1024 Pixel Resume Section ======
+  // =========================================
+  .Container {
+    width: 80%;
+    .maps {
+      iframe {
+        width: 64.5rem;
+        height: 35rem;
+      }
+    }
+  }
+}
+@media screen and (max-width: 820px) {
+  // =================================================
+  // ===== Responsive 850 Pixel 2nd Box Container ======
+  // ===================================================
+}
+
+@media screen and (max-width: 430px) {
+  // =================================================
+  // ===== Responsive 430 Pixel About Container ======
+  // ==================================================
 }

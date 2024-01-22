@@ -76,3 +76,82 @@
         gap: 1rem;
     }
 }
+.aboutImage{
+  .img{
+    height: 32rem;
+    width: 47.5rem
+  }
+}
+
+
+
+
+
+// // ============================
+// // ====== Responsive Webpage ==
+// // ============================
+
+@media screen and (max-width: 1024px) {
+  // =======================================
+  // ===== Responsive 1024 Pixel About Section ======
+  // =========================================
+  #about{
+    height: auto;
+    padding: 15rem 0 10rem 0;
+  }
+  .mainContainer {
+    flex-wrap: wrap;
+    gap: 6rem;
+    margin: 0 2rem;
+  }
+  .aboutImage{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    .img{
+      height: 40rem;
+      width: 55rem
+    }
+  }
+  
+}
+
+@media screen and (max-width: 430px) {
+  // =================================================
+  // ===== Responsive 430 Pixel About Container ======
+  // ===================================================
+  #about{
+    padding: 10rem 0;
+  }
+  .mainContainer {
+    margin: 0 1rem;
+  }
+  .aboutText{
+    .headingOne{
+      flex-wrap: wrap;
+
+      .animatedInfo{
+        .headingItems{
+          font-size: 4rem;
+        }
+    }
+    }
+
+  }
+  .aboutImage{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    .img{
+      height: 30rem;
+      width: 40rem
+    }
+  }
+}
+
+@media screen and (max-width: 820px) {
+  // =================================================
+  // ===== Responsive 850 Pixel 2nd Box Container ======
+  // ===================================================
+  
+}

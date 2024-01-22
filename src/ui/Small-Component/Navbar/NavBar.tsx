@@ -22,7 +22,7 @@ const NavBar = () => {
               <h3>Shahzaib</h3>
             </Link>
             <div className={styles.menu}>
-              <RiMenu3Fill />
+              <RiMenu3Fill  className={styles.menubar} />
             </div>
           </div>
 

@@ -22,8 +22,8 @@ const About = () => {
               <span className={styles.mr2}>Hey folks, I{"'"}m</span>
               <div className={styles.animatedInfo}>
                 <span className={styles.headingItems}>Shahzaib Saleem</span>
-                {/* <span className="animated-item">Web Designer</span>
-                                    <span className="animated-item">UI Specialist</span> */}
+                {/* <span className={styles.headingItems}>Web Designer</span>
+                <span className={styles.headingItems}>UI Specialist</span> */}
               </div>
             </h1>
 
@@ -36,22 +36,11 @@ const About = () => {
             <div className={styles.customButton}>
               <Button text="Download Resume" url="/" bgColor="#eee" color="#5b5b5b"/>
               <Button text="Get a free quote" url="/" bgColor="#474559" color="#ffffff"/>
-
-              
-              {/* <a href="#" className="btn mr-lg-2 custom-btn">
-                <i className="uil uil-file-alt"></i> Download Resume
-              </a>
-              <a
-                href="#contact"
-                className="btn custom-btn custom-btn-bg custom-btn-link"
-              >
-                
-              </a> */}
             </div>
           </div>
           <div className={styles.aboutImage}>
             {/* 2nd Block of Main Container */}
-            <Image src={Hero} height={320} width={475} alt="Image not found" />
+            <Image src={Hero} height={320} width={475} alt="Image not found" className={styles.img} />
           </div>
         </div>
       </section>

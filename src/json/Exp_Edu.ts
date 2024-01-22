@@ -55,7 +55,7 @@ export const EducationData: Exp_Edu_Type[] = [
   {
     id: 3,
     date: "2019",
-    title: "FG Boys Public School",
+    title: "FG Public School",
     subTitle: "Matriculation",
     paragraph:
       "You can freely use Tooplate's templates for your business or personal sites. You cannot redistribute this template without a permission.",

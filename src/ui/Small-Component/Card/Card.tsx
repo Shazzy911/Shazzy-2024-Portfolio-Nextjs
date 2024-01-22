@@ -12,7 +12,7 @@ type cardType = {
 const Card = ({items}: cardType) => {
   return (
     <>
-      <div className={styles.ContainerWrapper}>
+      <div className={styles.Container}>
         <div className={styles.timelineRound}>
           <span>{items.date}</span>
         </div>

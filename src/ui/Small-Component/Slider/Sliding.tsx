@@ -40,19 +40,19 @@ const Sliding = () => {
 
 
           <SwiperSlide style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-            <Image src={Hero1} height={665} width={980} alt="Image not found" />
+            <Image src={Hero1} height={665} width={980} alt="Image not found" className={styles.img} />
           </SwiperSlide>
           <SwiperSlide style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-            <Image src={Hero2} height={665} width={980} alt="Image not found" />
+            <Image src={Hero2} height={665} width={980} alt="Image not found" className={styles.img} />
           </SwiperSlide>
           <SwiperSlide style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-            <Image src={Hero3} height={665} width={980} alt="Image not found" />
+            <Image src={Hero3} height={665} width={980} alt="Image not found" className={styles.img} />
           </SwiperSlide>
           <SwiperSlide style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-            <Image src={Hero4} height={665} width={980} alt="Image not found" />
+            <Image src={Hero4} height={665} width={980} alt="Image not found" className={styles.img} />
           </SwiperSlide>
           <SwiperSlide style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-            <Image src={Hero5} height={665} width={980} alt="Image not found" />
+            <Image src={Hero5} height={665} width={980} alt="Image not found" className={styles.img} />
           </SwiperSlide>
         </Swiper>
       </div>
