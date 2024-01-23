@@ -70,7 +70,7 @@
     width: 80%;
     .maps {
       iframe {
-        width: 64.5rem;
+        width: 65rem;
         height: 35rem;
       }
     }
@@ -80,10 +80,50 @@
   // =================================================
   // ===== Responsive 850 Pixel 2nd Box Container ======
   // ===================================================
+
+  .Container {
+    width: 80%;
+    .maps {
+      iframe {
+        width: 55rem;
+        height: 35rem;
+      }
+    }
+  }
 }
+
+@media screen and (max-width: 768px) {
+  // =================================================
+  // ===== Responsive 430 Pixel About Container ======
+  // =================================================
+  .Container{
+    width: 88%;
+  }
+}
+
 
 @media screen and (max-width: 430px) {
   // =================================================
   // ===== Responsive 430 Pixel About Container ======
-  // ==================================================
+  // =================================================
+  .Container {
+    width: 80%;
+    .maps {
+      iframe {
+        width: 39.5rem;
+        height: 30rem;
+      }
+    }
+  }
+  
+}
+@media screen and (max-width: 390px) {
+  // =================================================
+  // ===== Responsive 430 Pixel About Container ======
+  // =================================================
+  .Container {
+    width: 86%;
+    
+  }
+  
 }

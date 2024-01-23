@@ -7,7 +7,7 @@
     justify-content: space-around;
     // align-items: center;
     padding: 0 10rem;
-    margin-top: 5rem;
+    margin-top: 10rem;
     // gap: 5rem;
 }
 
@@ -22,8 +22,8 @@
     // =========================================
     .Container{
         flex-wrap: wrap;
-        justify-content: flex-start;
-        gap: 3rem;
+        justify-content: center;
+        gap: 5rem;
     }
    
   }
@@ -39,5 +39,8 @@
     // =================================================
     // ===== Responsive 430 Pixel About Container ======
     // ==================================================
+    .Container{
+      padding: 0;
+    }
     
   }
